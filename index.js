@@ -21,6 +21,17 @@ function ternaryCheckCity(city){
 //console.log(ternaryCheckCity('Nairobi'))
 
 
-function switchOnCharmFromTip(){
-  // Write your code here!
+function switchOnCharmFromTip(reply){
+  switch (reply) {
+   case 'generous':
+   return "Thank you so much.";
+
+   case 'not as generous':
+   return 'Thank you.';
+
+   default:
+   return 'Bye.';
+
+
+  }
 }
