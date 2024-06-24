@@ -31,7 +31,6 @@ function switchOnCharmFromTip(reply){
 
    default:
    return 'Bye.';
-
-
   }
 }
+//console.log(switchOnCharmFromTip('generous'))
