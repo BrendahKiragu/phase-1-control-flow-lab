@@ -14,9 +14,12 @@ function scuberGreetingForFeet(distance){
 }
 //console.log(scuberGreetingForFeet(2300))
   
-function ternaryCheckCity(){
-  // Write your code here!
+
+function ternaryCheckCity(city){
+ return city === "NYC" ? `Ok, sounds good.` : `No go.`
 }
+//console.log(ternaryCheckCity('Nairobi'))
+
 
 function switchOnCharmFromTip(){
   // Write your code here!
